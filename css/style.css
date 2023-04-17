@@ -10,11 +10,54 @@ header {
 }
 
 
-
-figure{
+#logo{
     width: 25%;
     position: relative;
     top: 33%;
     margin-inline-start: 0px;
 }
 
+
+#author{
+    color: #4ab4e8;
+}
+
+
+#tim-pics{
+    display: inline-block;
+    margin-left: 0px;
+    width: 108%;
+    margin-bottom: 0px;
+}
+
+
+h1{
+    font-size: 271%;
+    margin-bottom: 0px;
+}
+
+
+#title-pics{
+    margin-left: 18%;
+    width: 64%;
+}
+
+
+.info,#author{
+    font-size: 146%;
+}
+
+
+#tim-pics-1{
+    width: 48%;
+}
+
+
+#tim-pics-2{
+
+    width: 41%;
+}
+
+.pics-caption{
+    font-size: 88%;
+}
