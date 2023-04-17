@@ -62,7 +62,7 @@ h1{
 }
 
 
-#paragraph{
+.paragraph{
     margin-left: 18%;
     width: 62%;
     font-size: 112%;
@@ -73,3 +73,27 @@ ul{
     padding-left: 1em;
 }
 
+
+#table{
+    margin-left: 18%;
+    margin-right: 20%;
+    font-size: 112%;
+}
+
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+#first-column,#second-column{
+    width: 30%;
+}
+ 
+tbody{
+    background-color: #b1e5f2;
+}
+
+#central-row{
+    background-color: white;
+}
