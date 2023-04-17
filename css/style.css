@@ -48,8 +48,8 @@ h1{
 }
 
 
+width: 48%;
 #tim-pics-1{
-    width: 48%;
 }
 
 
@@ -59,6 +59,11 @@ h1{
 
 .pics-caption{
     font-size: 88%;
+    
+}
+
+#second-caption{
+    margin-bottom: 2%;
 }
 
 
@@ -69,6 +74,17 @@ h1{
 } 
 
 
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline;
+}
+
+.underline-paragraph{
+    background-color: hsl(60, 100%, 50%);
+
+}
+
 ul{
     padding-left: 1em;
 }
@@ -78,6 +94,7 @@ ul{
     margin-left: 18%;
     margin-right: 20%;
     font-size: 112%;
+    margin-bottom: 1%;
 }
 
 
