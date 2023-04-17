@@ -90,17 +90,21 @@ ul{
 }
 
 
-#table{
+#central-table{
     margin-left: 18%;
     margin-right: 20%;
     font-size: 112%;
     margin-bottom: 1%;
 }
 
+table{
+    border-collapse: collapse;
+}
 
 thead{
     background-color: #20a9e5;
     color: white;
+    text-align: left;
 }
 
 
