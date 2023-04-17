@@ -54,10 +54,22 @@ h1{
 
 
 #tim-pics-2{
-
     width: 41%;
 }
 
 .pics-caption{
     font-size: 88%;
 }
+
+
+#paragraph{
+    margin-left: 18%;
+    width: 62%;
+    font-size: 112%;
+} 
+
+
+ul{
+    padding-left: 1em;
+}
+
