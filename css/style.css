@@ -86,14 +86,50 @@ thead{
     color: white;
 }
 
+
+
 #first-column,#second-column{
     width: 30%;
 }
  
+
+
 tbody{
     background-color: #b1e5f2;
 }
+ 
 
 #central-row{
     background-color: white;
+}
+
+
+footer{
+    margin-left: 18%;
+    width: 62%;
+}
+
+
+h4{
+    color: hsl(224, 6.6%, 55.1%);
+    font-size: 126%;
+}
+
+
+#footer-pics-1{
+    color: white;
+    font-size: 138%;
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 16%;
+}
+
+
+#footer-pics-2{
+    color: white;
+    font-size: 138%;
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 50%;
+    margin-top: 2%;
 }
