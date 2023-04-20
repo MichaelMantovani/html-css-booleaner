@@ -1,35 +1,55 @@
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* Generics*/
 
+address{
+    font-style: normal;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(66,180,231);
+}
+
+/* HEADER */
+
 header {
-    width: 1200px;
-    height: 200px;
-    margin: auto;
+    height: 150px;
     background-image: url('../img/pattern.png');
     background-color: #4ea0ff;
-    background-size: 40% 163%; 
+    background-size: 30% 160%; 
 }
 
 
 #logo{
-    width: 25%;
-    position: relative;
-    top: 33%;
-    margin-inline-start: 0px;
+    width: 200px;
+    line-height: 200px;
 }
 
 
-#author{
-    color: #4ab4e8;
-}
-
-
-#tim-pics{
+/* TITLE */
+.pics {
     display: inline-block;
-    margin-left: 0px;
-    width: 108%;
-    margin-bottom: 0px;
+    margin-top: 30px;
 }
 
+
+/* ARTICLE */
+
+ul{
+    list-style-type: none;
+}
+
+/* TABLE */
 
 h1{
     font-size: 271%;
@@ -48,25 +68,10 @@ h1{
 }
 
 
-
-#tim-pics-1{
-    width: 48%;
-}
-
-
-#tim-pics-2{
-    width: 41%;
-}
-
 .pics-caption{
     font-size: 88%;
     
 }
-
-#second-caption{
-    margin-bottom: 2%;
-}
-
 
 .paragraph{
     margin-left: 18%;
@@ -79,15 +84,6 @@ p{
     margin-top: 0px;
     margin-bottom: 0px;
     display: inline;
-}
-
-.underline-paragraph{
-    background-color: hsl(60, 100%, 50%);
-
-}
-
-ul{
-    padding-left: 1em;
 }
 
 
@@ -154,4 +150,11 @@ h4{
     background-repeat: no-repeat;
     padding-bottom: 50%;
     margin-top: 2%;
+}
+
+
+/* UTILITIES */
+.container{
+    width: 1080px;
+    margin: 0 auto;
 }
